@@ -12,7 +12,7 @@ window.addEventListener("load", async function () {
     console.log(json);
     
     for (let index = 0; index < json.result.length; index++) {
-        const element = json.result[index]
+        const element = json.result[index];
 
         const imagem  = document.createElement("img");
         imagem.classList.add("img-recentes");
